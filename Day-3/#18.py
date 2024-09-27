@@ -5,7 +5,7 @@
 user=int(input("Enter a Number: "))
 
 x=user
-a=x%10
+a=x%10 
 num=x//10
 b=num%10
 c=num//10
