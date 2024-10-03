@@ -14,7 +14,7 @@ elif (user > 2000000) and (user<3000000):
     tax=(30/100) * user
     temp_salary = user - tax
     
-print(f"After Salary Reduction: {temp_salary}")
+    print(f"After Salary Reduction: {temp_salary}")
 if temp_salary > 500000:
     HR=10/100 * temp_salary
     DA=5/100 * temp_salary

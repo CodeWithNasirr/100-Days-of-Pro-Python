@@ -4,7 +4,7 @@
 
 # Firstyle You Have to calculate the hour & minute Angle 
 # Hour = 12(hours)/360=30 Angle
-# Minute = 60/360 = 6
+# Minute = 60/360 = 6 Angles
 
 # Calculate the Position of Each Hand:
 # For the hour hand angle : = (hour%30) * 30 + (minute/60) * 30

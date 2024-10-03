@@ -11,9 +11,6 @@ print(f"Required Number is : {add}")
 
 
 
-
-
-
 user=int(input("Enter a 3 digits numnber: "))
 a=user % 10
 num=user//10

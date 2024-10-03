@@ -33,8 +33,8 @@ user1 = int(input("Enter Your First Number: "))
 user2 = int(input("Enter Your Second Number: "))
 
 while(user2 != 0):
-    rem=user1%user2
-    user1,user2=user2,rem
+    reminder=user1%user2
+    user1,user2=user2,reminder
 
 print(f"The Results: {user2}")
 print(f"The HCF is: {user1}")
