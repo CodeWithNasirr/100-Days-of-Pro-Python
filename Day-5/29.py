@@ -2,8 +2,10 @@
 
 def results(num):
     digits=list(map(int,(str(num))))
+    # print(digits)
     len_digits=len(digits)
     sum_digits=sum(digit ** len_digits for digit in digits)
+    # print(sum_digits)
     return sum_digits == num
 
 def print_100_1k(number:int):

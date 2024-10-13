@@ -4,10 +4,8 @@ odd_number=[]
 num=1
 while(len(odd_number)<user):
     odd_number.append(num)
-    num=num+2
-
+    num=num+5
 print(odd_number)
-
 
 #Using Function.....
 
