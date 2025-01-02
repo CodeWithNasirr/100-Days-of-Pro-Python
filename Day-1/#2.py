@@ -8,7 +8,6 @@
 
 
 # Using Functions
-
 def Temp_converter(user):
     x=user*9/5 + 32
     print(f"{user} Celsius is convert Into {x} Fahreheit")

@@ -9,10 +9,9 @@ def custom_spilt(text,space=" "):
             temp=""
         else:
             temp+=char
-        
+
     if char:
         item.append(temp)
-    
     return item
 
 

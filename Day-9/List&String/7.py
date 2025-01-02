@@ -3,8 +3,10 @@
 
 def find_pairs(lst, target):
     pairs = []
-    for i in range(len(lst)):
+    for i in range(len(lst)):#7
+        print(f"i:{i}")
         for j in range(i+1,len(lst)):
+            print(f"J:{j}")
             if lst[i] + lst[j] == target:
                 pairs.append((lst[i],lst[j]))
     return pairs

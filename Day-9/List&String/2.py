@@ -3,18 +3,16 @@
 
 
 def max_min(number):
-    if len(number)==0:
-        None,None
+    if len(number)<2:
+        return None
     max=number[0]
     min=number[0]
-    for x in number:
-        if x > max:
-            max = x
-        elif x<min:
-            min = x
-        
+    for i in number:
+        if i>max:
+            max=i
+        elif i<min:
+            min=i
     return max,min
-
 
 
 

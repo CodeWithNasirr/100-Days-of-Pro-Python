@@ -10,11 +10,3 @@ add=(a**2 + b**2 + c**2)
 print(f"Required Number is : {add}")
 
 
-
-user=int(input("Enter a 3 digits numnber: "))
-a=user % 10
-num=user//10
-b=num % 10
-c=num//10
-
-print(f"Total Number: {a+b+c}")
